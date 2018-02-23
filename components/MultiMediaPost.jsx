@@ -6,6 +6,10 @@ class MultiMediaPost extends React.Component{
 		super(props);
 		this.state = {}
 	}
+
+	render(){
+		return(<h1>MultiMedia Post</h1>)
+	}
 }
 
 export default MultiMediaPost;

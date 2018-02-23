@@ -1,14 +1,14 @@
 import React from 'react';
 
 
-class Header extends React.Component{
+class GlobalModal extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = {}
 	}
 	render(){
-		return(<h1>HEADER</h1>)
+		return(<h1>Global Modal</h1>)
 	}
 }
 
-export default Header;
+export default GlobalModal;

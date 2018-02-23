@@ -4,17 +4,20 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const hostname = 'localhost';
-const port = 80;
+const port = 8001;
 const vhost = require('vhost');
 //const router = express.Router();
 const app = express();
 
 app.use(express.static('public'))
 
-
-app.use(vhost('worldposts.com', function (req, res) {
+app.use('/', function (req, res) {
 		res.sendFile(__dirname + '/index.html');
-}));
+});
+
+// app.use(vhost('worldposts.com', function (req, res) {
+// 		res.sendFile(__dirname + '/index.html');
+// }));
 
 app.listen(port, () => {
     console.log(`

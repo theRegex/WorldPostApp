@@ -6,6 +6,10 @@ class App extends React.Component{
 		super(props);
 		this.state = {}
 	}
+
+	render(){
+		return(<h1>AD POSTS</h1>)
+	}
 }
 
 export default App;

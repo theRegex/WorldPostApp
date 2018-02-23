@@ -6,6 +6,10 @@ class TextPost extends React.Component{
 		super(props);
 		this.state = {}
 	}
+
+	render(){
+		return(<h1>TEXT POST</h1>)
+	}
 }
 
 export default TextPost;

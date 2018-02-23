@@ -6,6 +6,10 @@ class App extends React.Component{
 		super(props);
 		this.state = {}
 	}
+
+	render(){
+		return(<center><h1>WORLDPOST APP LOADED</h1></center>)
+	}
 }
 
 export default App;

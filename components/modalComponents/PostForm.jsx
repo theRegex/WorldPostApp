@@ -6,6 +6,9 @@ class PostForm extends React.Component{
 		super(props);
 		this.state = {}
 	}
+	render(){
+		return(<h1>POST MODAL</h1>)
+	}
 }
 
 export default PostForm;
