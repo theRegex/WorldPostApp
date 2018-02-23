@@ -1,7 +1,7 @@
 # WorldPostApp
 One post a day from anyone anywhere
 
-##Instructions
+## Instructions
 
 `npm install`
 `nodemon server`
