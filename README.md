@@ -3,6 +3,8 @@ One post a day from anyone anywhere
 
 ## Instructions
 
+`git checkout dev`
+
 `npm install`
 
 `nodemon server`
