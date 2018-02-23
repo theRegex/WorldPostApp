@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from './Header.jsx';
+import Posts from './Posts.jsx';
 
 
 class App extends React.Component{
@@ -8,7 +10,14 @@ class App extends React.Component{
 	}
 
 	render(){
-		return(<center><h1>WORLDPOST APP LOADED</h1></center>)
+		return(
+			<div>
+				<Header/>
+				<center><h1>WORLDPOST APP LOADED</h1></center>
+				<Posts/>
+
+			</div>
+			)
 	}
 }
 
