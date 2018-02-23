@@ -6,6 +6,10 @@ class VideoPost extends React.Component{
 		super(props);
 		this.state = {}
 	}
+
+	render(){
+		return(<h1>VIDEO POST</h1>)
+	}
 }
 
 export default VideoPost;

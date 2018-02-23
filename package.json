@@ -31,7 +31,7 @@
     "test": "launch",
     "webpack": "webpack",
     "babel": "babel",
-    "start": "node server.js"
+    "build": "webpack && node server.js"
   },
   "author": "Keinan Pace",
   "license": "ISC",

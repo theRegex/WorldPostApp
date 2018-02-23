@@ -6,6 +6,9 @@ class ImagePost extends React.Component{
 		super(props);
 		this.state = {}
 	}
+	render(){
+		return(<h1>Image Post</h1>)
+	}
 }
 
 export default ImagePost;

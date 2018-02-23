@@ -1,14 +1,15 @@
 import React from 'react';
 
 
-class Header extends React.Component{
+class SearchBar extends React.Component{
 	constructor(props){
 		super(props);
 		this.state = {}
 	}
+
 	render(){
-		return(<h1>HEADER</h1>)
+		return(<h1>Search Bar</h1>)
 	}
 }
 
-export default Header;
+export default SearchBar;
