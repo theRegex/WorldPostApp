@@ -1,0 +1,39 @@
+{
+  "name": "fonicapp",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.2.10",
+    "es2015": "0.0.0",
+    "express": "^4.14.1",
+    "express-subdomain": "^1.0.5",
+    "nodemon": "^1.14.11",
+    "react": "^15.6.2",
+    "react-alert": "^3.0.0",
+    "react-alert-template-basic": "^1.0.0",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.10",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "http-server": "^0.9.0",
+    "webpack": "^1.15.0",
+    "webpack-async-await": "^1.1.0"
+  },
+  "scripts": {
+    "test": "launch",
+    "webpack": "webpack",
+    "babel": "babel",
+    "start": "node server.js"
+  },
+  "author": "Keinan Pace",
+  "license": "ISC",
+  "description": ""
+}
